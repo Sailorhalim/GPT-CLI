@@ -261,7 +261,7 @@ int main() {
     if (env_api_key == nullptr) {
         std::cerr << Color::red << "[PERINGATAN] Environment variable OPENAI_API_KEY tidak diatur." << Color::reset << std::endl;
         // Anda bisa set default key di sini jika perlu, tapi tidak disarankan
-        // apiKey = "";
+        apiKey = "API_KEY_DISINI";
     } else {
         apiKey = env_api_key;
     }
